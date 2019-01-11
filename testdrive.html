@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="ko" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Video</title>
-
+    <title>Test Drive</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="./css/master.css">
-    <link rel="stylesheet" href="./css/video.css">
+    <link rel="stylesheet" href="./css/testdrive.css">
     <link rel="stylesheet" href="./css/subheader.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta property="og:image" content="./img/favicon.png">
+
+    <link rel="image_src" href="img/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon.png">
 
     <link rel="image_src" href="img/favicon.png">
     <link rel="shortcut icon" href="img/favicon.png">
@@ -16,6 +22,8 @@
     <link rel="stylesheet/less" href="./css/header.less">
     <link rel="stylesheet/less" href="./css/animate.less">
     <script src="./js/less.js" type="text/javascript"></script>
+
+
   </head>
   <body>
     <header id="header">
@@ -194,20 +202,71 @@
     </header>
     <div class="sub-header">
       <div class="sub-header-title">
-        Video
+        Test Drive
       </div>
-      <hr class="center-hr">
+      <hr class="center-hr"/>
       <div class="sub-header-router">
-        Home &gt; Video
+        Home &gt; Test Drive
       </div>
     </div>
-    <div class="video-content">
-      <iframe width="640" height="360" src="https://www.youtube.com/embed/m-gMAcfN3UI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
-      <iframe width="640" height="360" src="https://www.youtube.com/embed/SyrA_QDzS9c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
-      <iframe width="640" height="360" src="https://www.youtube.com/embed/LtttjRohS7g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
-      <iframe width="640" height="360" src="https://www.youtube.com/embed/S73T2rajPDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+    <div class="drive-form">
+      <div class="form-left">
+        <div class="form-title">
+          유리바닥보트,요트 시승신청
+        </div>
+        <hr class="center-hr"/>
+        <div class="form-dec">
+          SOH의 PARITETBOAT LOOKER 의 시승신청을 해주셔서 감사합니다.<br/><br/>
+          시승신청은 우측의 시승신청서 작성, 본사 이메일 soh_company@naver.com  <br/>
+          또는 서울지사 02-861-8260 제주 본사 064-782-7589 로 신청하실 수 있습니다.
+          <br/><br/>
+          시승가능 국가
+          러시아, 세이셸, 몰디브, 그리스 자킨토스 섬, 그리스 로데스 섬 스페인 테네리페 섬,         포르투갈 아조레스 섬, 아랍에미리트, 베트남, 피지, 대한민국
+          대한민국 시승지역
+           제주특별자치도
+        </div>
+      </div>
+      <div class="form-right">
+        <div class="form-name form-box">
+          성함:
+          <input type="text" name="name" value="">
+        </div>
+        <div class="form-boat form-box">
+          유리바닥보트 / 요트:
+          <select>
+            <option value="volvo">LOOKER320</option>
+            <option value="saab">LOOKER350</option>
+            <option value="mercedes">LOOKER370</option>
+            <option value="audi">LOOKER440GB</option>
+            <option value="audi">LOOKER440S</option>
+            <option value="audi">ELLIPS35</option>
+          </select>
+        </div>
+        <div class="form-call">
+          <div class="form-mail form-box">
+            이메일:
+            <input type="text" name="name" value="">
+          </div>
+          <div class="form-phone form-box">
+            휴대폰 번호:
+            <input type="text" name="name" value="">
+          </div>
+        </div>
+        <div class="form-city form-box">
+          주소:
+          <input type="text" name="name" value="">
+        </div>
+        <div class="form-req form-box">
+          요청사항:
+          <textarea name="name" rows="8" cols="80"></textarea>
+        </div>
+      </div>
     </div>
-
+    <div class="send-btn-box">
+      <div class="send-btn">
+        시승신청서 보내기
+      </div>
+    </div>
     <footer class="footer">
       <div class="footer-contact footer-box">
         <div class="f-box-title">

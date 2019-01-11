@@ -1,0 +1,47 @@
+.mySlides{
+  width:100vw;
+  padding: 0px;
+  margin: 0px;
+}
+.mySlides .slide-img{
+  /* width:100vw; */
+  height: 50vmax;
+  -webkit-animation: fadeinout 0.4s linear forwards;
+  animation: fadeinout 0.4s linear forwards;
+  background-size: cover;
+}
+.slide1{
+  background-image: url('https://paritetboat.com/wp-content/uploads/2018/11/looker-370-7-min-e1542617181464.jpeg');
+}
+.slide2{
+  background-image: url('https://paritetboat.com/wp-content/uploads/2018/04/3.jpg');
+}
+.slide3{
+  background-image: url('https://paritetboat.com/wp-content/uploads/2018/09/looker370zephir-min-min.jpg');
+}
+.slide4{
+  background-image: url('https://paritetboat.com/wp-content/uploads/2018/04/5.jpg');
+}
+.slide5{
+  background-image: url('https://paritetboat.com/wp-content/uploads/2018/05/350-1-копия-e1542618689461.jpg');
+}
+.slide-btn{
+  width:70px;
+  height: 70px;
+  background: none;
+  border: 3px solid white;
+  margin: 2rem;
+  color:white;
+  font-size: 18pt;
+}
+
+
+@-webkit-keyframes fadeinout {
+  0% { opacity: .2; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%{ opacity: .2; }
+  100% { opacity: 1; }
+}

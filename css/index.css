@@ -6,6 +6,7 @@
 }
 
 #p2 .home-box{
+  margin-top: 1rem;
   text-align: center;
   font-size: 16pt;
   padding: 2rem;
@@ -38,7 +39,7 @@
   justify-content: flex-start;
 }
 #p2 .about-box .about-left .about-btn-box .about-btn{
-  width:100px;
+  width:120px;
   padding: 1rem;
   background-color: #85a5cc;
   text-align: center;
@@ -72,6 +73,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 #p4 .index-gallery .gallery-title{
   padding-top: 1rem;
@@ -80,7 +82,7 @@
   font-size: 22pt;
 }
 #p4 .index-gallery .gallery-content{
-  height: 30vmin;
+  height: 20vmax;
   padding-left: 2rem;
   padding-right: 2rem;
   display: flex;
@@ -109,6 +111,7 @@
 .content-box {
   margin-top: 3rem;
   width:100%;
+  z-index: 0;
 
 }
 .content-box .ad-title{
@@ -127,20 +130,23 @@
   margin-left: 3rem;
   color:white;
 }
-.content-box  .ad-btn-box{
-  padding-top: 0.9rem;
+
+.content-box .about-btn-box{
+  padding-top: 1.9rem;
   display: flex;
   justify-content: center;
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
 }
-.content-box  .ad-btn-box .ad-btn{
-  width:100px;
+.content-box .about-btn-box .about-btn{
+  cursor: pointer;
+  width:120px;
   padding: 1rem;
   background-color: #85a5cc;
   text-align: center;
   /* border: 1px solid red; */
   color:white;
 }
+
 #p6 .product-title{
   text-align: center;
   font-size: 18pt;

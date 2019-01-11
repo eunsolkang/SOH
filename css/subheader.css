@@ -1,0 +1,19 @@
+.sub-header{
+  background-image: url('https://paritetboat.com/wp-content/uploads/2018/05/sea-water-ocean-waves1.jpg');
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.sub-header .sub-header-title{
+  padding-top: 2.5rem;
+  text-align: center;
+  font-size: 20pt;
+}
+.sub-header .center-hr{
+  margin-left: auto;
+}
+.sub-header .sub-header-router{
+  margin-top: 0.5rem;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}

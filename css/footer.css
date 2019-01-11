@@ -1,0 +1,76 @@
+
+.footer{
+  background-color: #1a1f2b;
+  display: flex;
+  flex-direction: row;
+  color:white;
+}
+.footer .footer-box{
+
+  width: calc(25% - 22.5px);
+  max-width: 280px;
+  padding: 3rem;
+}
+.footer .footer-box .f-box-title{
+  font-size: 13pt;
+}
+.footer .footer-box .f-box{
+  padding-top: 1rem;
+  font-size: 10pt;
+  display: flex;
+  align-items: flex-start;
+}
+
+
+.copy-right{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 5rem;
+  height: 80px;
+  background-color: #85a5cc;
+  text-align: center;
+  color:white;
+}
+
+@media (max-width:980px) {
+  .footer{
+    background-color: #1a1f2b;
+    display: flex;
+    flex-direction: column;
+    color:white;
+  }
+  .footer .footer-box{
+
+    width:80vw;
+    padding: 2rem;
+  }
+}
+.arrow{
+  width:8px;
+  margin-right: 6px;
+  padding-top: 1px;
+}
+.ic_box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 10px;
+}
+.f-box .f-index{
+  padding-left: 5px;
+}
+.ic_box .ic_locate{
+  height:33px;
+  margin-left: 5px;
+}
+.ic_box .ic_call{
+  width:30px;
+}
+.ic_box .ic_mail{
+  width:30px;
+}
+/* .footer_ic{
+  width: 30px;
+  margin-right: 8px;
+} */

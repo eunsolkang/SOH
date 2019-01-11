@@ -1,0 +1,65 @@
+.tap-container{
+  padding-bottom: 2rem;
+}
+ul.tabs{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 2rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ul.tabs li{
+
+  width:100px;
+  text-align: center;
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-top : 4px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+  border-left: 1px solid #e3e3e3;
+  transition: border-top 0.5s;
+  -webkit-transition: border-top 0.5s;
+}
+
+ul.tabs li.current{
+  border-top : 4px solid #85a5cc;
+  /* background: #ededed; */
+  color: #222;
+  animation-duration: 4s;
+  animation-delay: 2s;
+
+}
+
+.tab-content{
+  border-top: 1px solid #e3e3e3;
+  width:40vmax;
+  /* min-width: 360px; */
+  display: none;
+  /* background: #ededed; */
+  padding: 15px;
+}
+.tab-content .tap-content-index{
+  margin-top: 2rem;
+}
+
+.tab-content.current{
+  display: inherit;
+}
+
+@media (max-width: 780px) {
+  ul.tabs{
+  }
+  ul.tabs li{
+
+  }
+  .tab-content{
+    padding: 0px;
+    width:86vmin;
+    padding-bottom: 2rem;
+  }
+}
